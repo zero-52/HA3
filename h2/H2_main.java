@@ -2,10 +2,10 @@ package h2;
 
 public class H2_main {
 	public static void main(String args[]) {
-		int jahr = 1596;
+		int jahr = 9876;
 		boolean schalt =  true;
 		
-		if ( jahr % 4 == 0 ) {
+		if ( jahr % 4 == 0 && jahr % 100 != 0 || jahr % 400 == 0 ) {
 			schalt = true;
 			System.out.println (schalt);
 			System.out.println ("Das Jahr " + jahr + " ist ein Schaltjahr.");
