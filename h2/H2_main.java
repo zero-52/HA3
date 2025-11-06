@@ -1,7 +1,7 @@
 package h2;
 
 public class H2_main {
-	public static void main(String args[]) {
+	public static void main(String [] args) {
 		int jahr = 9876;
 		boolean schalt =  true;
 		
