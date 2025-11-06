@@ -1,7 +1,7 @@
 package h1;
 
 public class H1_main {
-	public static void main(String args[]) {
+	public static void main(String[] args) {
 		double guthaben = -600;
 		double monEingang = -700;
 		int rating = -1;
