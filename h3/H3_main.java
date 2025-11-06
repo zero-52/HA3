@@ -1,7 +1,7 @@
 package h3;
 
 public class H3_main {
-	public static void main(String args[]) {
+	public static void main(String[] args) {
 		int max = 200; 
 		int fix = 89; 
 		int wartend = 15;
@@ -36,7 +36,6 @@ public class H3_main {
 				System.out.println("Es ist überfüllt. Auf der Warteliste stehen noch " + wartend + " Personen.");
 		}}}
 
-	//Eine Art Überlegung als Notiz mit der for-Schleife: for (int i = fix, j= wartend += 1;i <= max && wartend > 0; i++,j--) {
 
 
 			
